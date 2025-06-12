@@ -8,6 +8,12 @@ This project is a case study developed using **React** and **TypeScript**. It de
 ![App Screenshot](src/assets/screen-app.png)
 ## 🛠️ Tech Stack
 
+## 🚀 Live Demo
+
+Check out the live demo of the project here:  
+[https://select-skip-app.vercel.app/](https://select-skip-app.vercel.app/)
+
+
 ### ⚛️ Core
 - **React**
 - **TypeScript**

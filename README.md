@@ -32,7 +32,7 @@ This project is a case study developed using **React** and **TypeScript**. It de
 ---
 
 ## 📂 Folder Structure
-
+``` 
 src/
 ├── components/ # Reusable UI components
 ├── context/ # Global state providers (useContext)
@@ -41,7 +41,7 @@ src/
 ├── styles/ # Global styles & Tailwind configuration
 ├── types/ # TypeScript interfaces and types
 └── App.tsx
-
+``` 
 ## ⚙️ Kurulum ve Geliştirme
 
 ```bash

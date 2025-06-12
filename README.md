@@ -3,7 +3,9 @@
 This project is a case study developed using **React** and **TypeScript**. It demonstrates a modular and modern frontend architecture with responsive design, theme support, and clean state management.
 
 ---
+## 📸 App Screenshot
 
+![App Screenshot](src/assets/screen-app.png)
 ## 🛠️ Tech Stack
 
 ### ⚛️ Core

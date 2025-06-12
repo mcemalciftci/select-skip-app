@@ -42,8 +42,9 @@ src/
 ├── types/ # TypeScript interfaces and types
 └── App.tsx
 
-## ⚙️ Getting Started
+## ⚙️ Kurulum ve Geliştirme
 
+```bash
 git clone https://github.com/mcemalciftci/select-skip-app.git
 cd select-skip-app
 npm install

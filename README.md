@@ -1,54 +1,48 @@
-# React + TypeScript + Vite
+# 🚀 React + TypeScript Case Study
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a case study developed using **React** and **TypeScript**. It demonstrates a modular and modern frontend architecture with responsive design, theme support, and clean state management.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Tech Stack
 
-## Expanding the ESLint configuration
+### ⚛️ Core
+- **React**
+- **TypeScript**
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+### 🧠 State Management
+- Built using **React's Context API**.
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+### 🎨 UI Libraries
+- **Shadcn UI**
+- **Material UI (MUI)**
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+### 🖼️ Icons
+- **react-icons**
+- **lucide-react**
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+### 💅 Styling
+- **Tailwind CSS**
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+### 🌗 Theme
+- Light/Dark mode support with **ThemeProvider** pattern.
+
+---
+
+## 📂 Folder Structure
+
+src/
+├── components/ # Reusable UI components
+├── context/ # Global state providers (useContext)
+├── layout/ # Layout components (e.g. sidebar, header)
+├── pages/ # Main views/pages
+├── styles/ # Global styles & Tailwind configuration
+├── types/ # TypeScript interfaces and types
+└── App.tsx
+
+## ⚙️ Getting Started
+
+git clone https://github.com/mcemalciftci/select-skip-app.git
+cd select-skip-app
+npm install
+npm run dev
